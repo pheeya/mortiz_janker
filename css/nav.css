@@ -1,0 +1,128 @@
+nav {
+  color: #fff;
+  background-color: #005293;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav ul {
+  max-width: 1210px;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  justify-content: space-between;
+}
+nav ul .leftNav {
+  display: flex;
+}
+nav ul .leftNav .logoNav {
+  background-image: url("https://www.mydealz.de/assets/img/logo/logo_a166c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 141px;
+  background-position-x: 0;
+  margin-right: 5px;
+}
+nav ul .leftNav li {
+  margin: auto 0;
+  padding: 20px 10px;
+  color: rgba(240, 240, 240, 0.589);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+nav ul .leftNav li:hover {
+  color: white;
+}
+nav ul .rightNav {
+  display: flex;
+  margin-left: 10px;
+}
+nav ul .rightNav li {
+  margin: auto 15px;
+  width: 100%;
+}
+nav ul .rightNav .searchLI {
+  min-width: 350px;
+}
+nav ul .rightNav .search {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  width: 100%;
+}
+nav ul .rightNav .search input {
+  padding: 0.64286em 1.14286em;
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  border: 0;
+}
+nav ul .rightNav .search i {
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.24);
+  font-size: 18px;
+}
+nav ul .rightNav .navButton {
+  background-color: #075ea4;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+nav ul .rightNav .navButton i {
+  margin-right: 5px;
+}
+nav ul .rightNav .navButton:hover {
+  background-color: #1677c7;
+}
+nav ul .rightNav .navButtonGreen {
+  background-color: #69be28;
+}
+nav ul .rightNav .navButtonGreen i {
+  position: relative;
+  top: 1px;
+}
+nav ul .rightNav .navButtonGreen:hover {
+  background-color: #7fd140;
+}
+
+.smallNav {
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.274);
+}
+.smallNav ul {
+  max-width: 1210px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+}
+.smallNav ul li {
+  padding: 15px;
+  color: #5e5e5e;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.smallNav ul li:hover {
+  color: #69BE28;
+}
+.smallNav ul .smallNavLeft {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+}
+.smallNav ul .smallNavLeft li {
+  margin: auto;
+}
+
+/*# sourceMappingURL=nav.css.map */

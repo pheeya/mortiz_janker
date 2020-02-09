@@ -1,0 +1,125 @@
+nav {
+  color: #fff;
+  background-color: #005293;
+  font-size: 14px;
+  font-weight: bold;
+  ul {
+    max-width: 1210px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
+    .leftNav {
+      display: flex;
+      .logoNav {
+        background-image: url("https://www.mydealz.de/assets/img/logo/logo_a166c.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 141px;
+        background-position-x: 0;
+        margin-right: 5px;
+      }
+      li {
+        margin: auto 0;
+        padding: 20px 10px;
+        color: rgba(240, 240, 240, 0.589);
+        cursor: pointer;
+        transition: color 0.2s;
+      }
+      li:hover {
+        color: white;
+      }
+    }
+    .rightNav {
+      display: flex;
+      margin-left: 10px;
+      li {
+        margin: auto 15px;
+        width: 100%;
+      }
+      .searchLI {
+        min-width: 350px;
+      }
+      .search {
+        display: flex;
+        background-color: #fff;
+        border: 1px solid #d1d5db;
+        border-radius: 5px;
+        width: 100%;
+        input {
+          padding: 0.64286em 1.14286em;
+          vertical-align: top;
+          display: inline-block;
+          width: 100%;
+          border: 0;
+        }
+        i {
+          vertical-align: middle;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 5px;
+          color: rgba(0, 0, 0, 0.24);
+          font-size: 18px;
+        }
+      }
+      .navButton {
+        background-color: #075ea4;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        i {
+          margin-right: 5px;
+        }
+      }
+      .navButton:hover {
+        background-color: #1677c7;
+      }
+      .navButtonGreen {
+        background-color: #69be28;
+        i {
+          position: relative;
+          top: 1px;
+        }
+      }
+      .navButtonGreen:hover {
+        background-color: #7fd140;
+      }
+    }
+  }
+}
+.smallNav{
+    background-color:white;
+    width:100%;
+    border-bottom:1px solid rgba(117, 117, 117, 0.274);
+    ul{
+        max-width:1210px;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        font-size:14px;
+        font-weight: bold;
+        padding:0;
+        li{
+            padding:15px;
+            color:rgb(94, 94, 94);
+            cursor: pointer;
+            transition: color .2s;
+        }
+        li:hover{
+            color:#69BE28
+        }
+        .smallNavLeft{
+            display: flex;
+            width:100%;
+            max-width:500px;
+            li{
+                margin:auto;
+            }
+        }
+    }
+}

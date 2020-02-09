@@ -1,0 +1,19 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7f9;
+}
+body main {
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

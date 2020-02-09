@@ -1,0 +1,46 @@
+.products
+{
+    margin:20px 0;
+    .product{
+        border-radius:5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.151);
+        padding:10px;
+        display:flex;
+        background-color:white;
+        max-width:1000px;
+        margin:auto;
+        .image{
+            width:230px;
+            margin-right:20px;
+            img{
+                width:100%;
+                display:block;
+            }
+        }
+       .content{
+           .temp{
+               border:1px solid rgba(158, 158, 158, 0.425);
+               display:inline-block;
+               padding:5px 10px;
+               text-align: center;
+               border-radius:8px;
+               font-weight: bold;
+           }
+           span,.fas{
+               color:rgb(199, 12, 12);
+               margin:2px 3px;
+           }
+           .fa-minus{
+               color:rgb(21, 38, 95);
+           }
+        h1{
+            font-size:16px;
+        }
+        .price{
+            color:rgb(108, 212, 67);
+            font-weight: bold;
+            font-size:18px;
+        }
+       }
+    }
+}
