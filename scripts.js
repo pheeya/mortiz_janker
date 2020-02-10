@@ -3,7 +3,7 @@ var inner = carousel.getElementsByTagName("ul")[0]
 function next()
 {
 carousel.scrollBy({
-left:120,
+left:220,
 behavior:"smooth"
 })
 }
@@ -11,7 +11,7 @@ behavior:"smooth"
 function previous()
 {
 carousel.scrollBy({
-    left:-120,
+    left:-220,
     behavior:"smooth"
 })
 }
