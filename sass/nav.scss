@@ -31,6 +31,7 @@ nav {
         color: white;
       }
     }
+
     .rightNav {
       display: flex;
       margin-left: 10px;
@@ -74,6 +75,17 @@ nav {
         transition: background-color 0.2s;
         i {
           margin-right: 5px;
+        }
+      }
+      @media(max-width:1170px){
+        .navButton{
+          div{
+            display:none;
+          }
+      i{
+        position: relative;
+        left:2.5px;
+      }
         }
       }
       .navButton:hover {
@@ -122,4 +134,35 @@ nav {
             }
         }
     }
+}
+
+@media(max-width:1035px){
+nav{
+  ul{
+    display:block;
+    padding:20px 10px;
+    .leftNav{
+      .logoNav{
+        background-size: 220px;
+        background-repeat: no-repeat;
+      }
+    }
+    .rightNav{
+      .navButton{
+        div{
+          display:block;
+        }
+    i{
+      position: relative;
+      left:0;
+    }
+      }
+      .searchLI{
+        min-width: 0;
+        width:100%;
+      }
+    }
+  }
+}
+
 }

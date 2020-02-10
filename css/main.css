@@ -16,4 +16,29 @@ body main {
   margin: auto;
 }
 
+footer {
+  background-color: #35373b;
+}
+footer .top {
+  display: flex;
+  padding: 20px;
+}
+footer .top img {
+  vertical-align: middle;
+  width: 100px;
+}
+footer .top span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white !important;
+  margin: 0 20px;
+}
+footer .top .title {
+  display: block;
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 0;
+}
+
 /*# sourceMappingURL=main.css.map */

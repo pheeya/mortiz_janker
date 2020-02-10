@@ -79,6 +79,15 @@ nav ul .rightNav .navButton {
 nav ul .rightNav .navButton i {
   margin-right: 5px;
 }
+@media (max-width: 1170px) {
+  nav ul .rightNav .navButton div {
+    display: none;
+  }
+  nav ul .rightNav .navButton i {
+    position: relative;
+    left: 2.5px;
+  }
+}
 nav ul .rightNav .navButton:hover {
   background-color: #1677c7;
 }
@@ -123,6 +132,28 @@ nav ul .rightNav .navButtonGreen:hover {
 }
 .smallNav ul .smallNavLeft li {
   margin: auto;
+}
+
+@media (max-width: 1035px) {
+  nav ul {
+    display: block;
+    padding: 20px 10px;
+  }
+  nav ul .leftNav .logoNav {
+    background-size: 220px;
+    background-repeat: no-repeat;
+  }
+  nav ul .rightNav .navButton div {
+    display: block;
+  }
+  nav ul .rightNav .navButton i {
+    position: relative;
+    left: 0;
+  }
+  nav ul .rightNav .searchLI {
+    min-width: 0;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=nav.css.map */

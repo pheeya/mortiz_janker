@@ -1,32 +1,38 @@
 .topCarousel {
-  max-width:1210px;
+  max-width:1160px;
   margin:30px auto;
+  position: relative;
+  .arrow {
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    font-size: 20px;
+    padding: 20px 16px;
+    background-color: rgba(128, 128, 128, 0.336);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    z-index:10;
+    height:50px;
+    margin:auto;
+  }
+  .arrowLeft {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(108, 212, 67);
+  }
+  .arrowRight {
+    right: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(108, 212, 67);
+  }
   .carouselHolder {
     position: relative;
-    .arrow {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      font-size: 20px;
-      padding: 10px 16px;
-      background-color: rgba(128, 128, 128, 0.336);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: white;
-      cursor: pointer;
-      z-index:10;
-    }
-    .arrowLeft {
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
-    }
-    .arrowRight {
-      right: 0;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-      background-color: rgb(108, 212, 67);
-    }
+    overflow: hidden;
+
     ul {
       display: flex;
       margin: 0;
@@ -35,17 +41,21 @@
       margin: auto;
       overflow: hidden;
       padding:0 40px;
+      min-width:900px;
       li {
         position: relative;
-        margin: auto 10px;
+        margin: auto ;
         border-radius: 8px;
         overflow: hidden;
         text-align: center;
-        min-width: 140px;
+        width: 100px;
+        height: 100px;
         z-index:5;
         img {
           display: block;
-          width: 100%;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
         }
         .label {
           position: absolute;
