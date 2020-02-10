@@ -15,3 +15,16 @@ carousel.scrollBy({
     behavior:"smooth"
 })
 }
+
+
+//FOCUS SCRIPT FOR SEARCH BAR
+
+var search = document.getElementsByClassName("search")[0]
+
+function searchFocus(){
+    search.style.border="3px solid #7fd140"
+}
+
+function searchBlur(){
+    search.style.border="3px solid rgba(0,0,0,0)"
+}

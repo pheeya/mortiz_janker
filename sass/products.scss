@@ -51,6 +51,21 @@ margin:20px auto;
             font-weight: bold;
             font-size:18px;
         }
+        .buy{
+            float:right;
+        background-color: #7fd140;
+        transition:background-color .2s;
+        cursor: pointer;
+        color:white;
+        padding:10px 20px;
+        h1{
+            padding:0;
+            margin:0;
+        }
+    }
+    .buy:hover {
+        background-color: #82ee30;
+      }
        }
     }
 }
@@ -113,6 +128,17 @@ margin:20px auto;
             }
         }
     }
+
+    .topPanel{
+        max-width: 1185px;
+        margin:10px auto;
+        display:none;
+     .list{
+         flex-direction: row;
+     }
+    }
+
+
     @media(max-width:1000px){
        .mainContent{
         .products{
@@ -130,12 +156,5 @@ margin:20px auto;
         }
     }
   
-    .topPanel{
-        max-width: 1185px;
-        margin:10px auto;
-     .list{
-         flex-direction: row;
-     }
-    }
 
   

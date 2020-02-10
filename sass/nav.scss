@@ -47,13 +47,18 @@ nav {
         background-color: #fff;
         border: 1px solid #d1d5db;
         border-radius: 5px;
+        border:3px solid rgba(255, 0, 0, 0);
         width: 100%;
+        transition: border .2s;
         input {
           padding: 0.64286em 1.14286em;
           vertical-align: top;
           display: inline-block;
           width: 100%;
           border: 0;
+        }
+        input:focus{
+          outline: none;
         }
         i {
           vertical-align: middle;

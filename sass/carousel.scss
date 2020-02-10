@@ -4,8 +4,8 @@
   position: relative;
   .arrow {
     position: absolute;
-    top: 25px;
-    bottom: 0;
+    top: 0;
+    bottom: 18px;
     font-size: 20px;
     padding: 20px 16px;
     background-color: rgba(128, 128, 128, 0.336);
@@ -41,31 +41,25 @@
       margin: auto;
       overflow: hidden;
       padding:0 40px;
-      min-width:900px;
+      min-width:1050px;
       li {
         position: relative;
         margin: auto ;
         border-radius: 8px;
         overflow: hidden;
         text-align: center;
-        width: 100px;
-        height: 100px;
+        width: 120px;
         z-index:5;
         img {
           display: block;
-          width: 100px;
-          height: 100px;
+          width: 120px;
+          height: 120px;
           border-radius: 50%;
         }
         .label {
-          position: absolute;
-          color: white;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          top: 0;
+          color: rgb(0, 0, 0);
+         padding:10px;
           margin: auto;
-          display: flex;
           flex-direction: column;
           justify-content: center;
           font-family: Helvetica;
